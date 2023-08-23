@@ -1,0 +1,193 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+:root {
+     --main-color:
+}
+
+html, body {
+     background-color: white;
+     font-family: "Courier Prime", Arial, Helvetica, sans-serif;
+}
+
+a {
+     text-decoration: none;
+     color: inherit;
+}
+
+.dark-mode {
+     filter: invert(90%);
+}
+
+.light-mode {
+     filter: invert(0%);
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/ 
+
+.main-container {
+     padding: 20vh 20vw;
+}
+
+/* DATE */
+
+     .main-date {
+          text-align: center;
+          font-size: 80px;
+          font-weight:normal
+     }
+
+/* RANDOM BUTTON */
+
+     .random-button {
+          background: none;
+          border: none;
+          cursor: pointer;
+          color: black;
+     }
+
+     .random-button i:hover {
+          opacity: 0.3;
+     }
+
+     .random-button:active {
+          transform: scale(0.9);
+     }
+       
+/* SEARCH BAR */
+
+     .searchbar-container {
+          border: 2px solid black;
+          padding: 2px;
+          border-radius: 10px;
+     }
+
+/* FACT */
+
+     .fact-container {
+          color: black;
+          font-size: 20px;
+          text-align: center;
+          margin-top: 8vh;
+          padding: 0 20px;
+     }
+
+     .date-fact:hover {
+          opacity: 0.3;
+     }
+
+/* LIGHTS ON OR OFF */
+
+     .mode-toggle {
+          position: fixed;
+          bottom: 20px;
+          right: 50px;
+          background: none;
+          border: none;
+          cursor: pointer;
+          color: rgba(0, 0, 0, 0.3);
+     }
+
+     .mode-toggle i:hover {
+          color: black;
+     }
+
+/* TIP */
+
+     .tip-button {
+          position: fixed;
+          bottom: 20px;
+          right: 20px;
+          background: none;
+          border: none;
+          cursor: pointer;
+          color: rgba(0, 0, 0, 0.3);
+     }
+
+     .tip-button i:hover {
+          color: black;
+     }
+
+     .tip-popup {
+          position: absolute;
+          text-align: center;
+          bottom: 20px;
+          right: 20px;
+          border: 0.5px solid rgba(0, 0, 0, 0.9);
+          padding: 20px;
+          border-radius: 10px;
+          color: white;
+          background-color: rgba(0, 0, 0, 0.9);
+          visibility: hidden;
+          font-size: 16px;
+          height: 350px;
+          width: 490px;
+     }
+
+     .popup-close {
+          position: absolute;
+          top: 15px;
+          right: 15px;
+          cursor: pointer;
+          z-index: 99999;
+          border: none;
+          background-color: transparent;
+          color: white;
+     }
+
+     .popup-close:hover {
+          color: grey;
+     }
+
+     .vcodes {
+          text-decoration: underline dotted;
+     }
+
+     .vcodes:hover {
+          color: grey;
+     }
+
+@media only screen and (max-device-width: 767px) {
+
+     .main-container {
+          padding: 20vh 10vw;
+     }
+
+     .main-date {
+          font-size: 5vh;
+     }
+
+     .fact-container {
+          font-size: 2.5vh;
+     }
+
+     .tip-popup {
+          font-size: 2.5vh;
+          height: auto;
+          width: auto;
+          margin-left: 20px;
+     }
+
+}
