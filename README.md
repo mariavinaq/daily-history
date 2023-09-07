@@ -24,4 +24,4 @@ The **Daily History** is a simple but thoughtful alternative to a browser startp
 Or, set Daily History as a startpage by updating the browser's settings.
 
 ## Developer:
-Crafted with ❤️ by [VCodes](https://vina.codes).
+From concept to digital reality 🌱 by [VCodes](https://vina.codes).
