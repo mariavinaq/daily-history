@@ -1,4 +1,7 @@
 # Daily History - Your Startpage Portal to the Past
+
+## Live site: [Daily History] (https://daily-history.netlify.app/)
+
 ## Overview
 The **Daily History** is a simple but thoughtful alternative to a browser startpage. It is minimalistic in design to declutter and simplify the everyday startpage experience, while adding a touch of curiosity by sharing interesting historical facts from the current date. It is a fleeting glimpse into the past, fostering deeper appreciation for days gone by.
 
@@ -24,4 +27,4 @@ The **Daily History** is a simple but thoughtful alternative to a browser startp
 Or, set Daily History as a startpage by updating the browser's settings.
 
 ## Developer:
-From concept to digital reality 🌱 by [VCodes](https://vina.codes).
+From concept to digital reality 🌱 by [Vina](https://www.mariavina.com/).
